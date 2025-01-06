@@ -1,18 +1,17 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(0, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-  --background-gradient-from: #E7E7E7;
-  --background-gradient-to: #1A1A1A;
   --main-font-family: 'Inter-Variable', sans-serif;  
   --accent-font-family: 'PressStart2P-Regular', sans-serif;
   --main-font-text-weight: 400;
   --main-font-header-weight: 700;
-  --accent-color: #000;
-  --normal-font-size: 14px;
-
   --main-background-color: #FFF;
-  --header-font-weight: 400;
-  --list-item-size: clamp(23.4375rem, 16.3732rem + 30.1408vw, 43.5rem);
+  --accent-color: #000;  
+  --normal-font-size: 14px;
+  --card-font-size: 18px;
+  --card-header-font-size: 18px;
+  
+  --list-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
   --label-stroke-color: #FFF;
   --button-hover-background: #000;
   --button-text-color: #FFF;

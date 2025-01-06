@@ -10,6 +10,30 @@
 
 */
 
+h1, h2 {
+  font-weight: var(--main-font-text-weight);
+  text-align: center;
+}
+
+h1 {
+  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+}
+
+button {
+  padding: 0;
+  background: none;
+  border: none;
+}
+
+button:focus-visible {
+  outline: none;
+}
+
 .page {
   background-image: var(--background-image);
   background-size: cover;
@@ -34,36 +58,23 @@
   margin: 100px auto;
 }
 
-h1, h2 {
-  font-weight: var(--header-font-weight);
-  text-align: center;
-}
-
-h1 {
-  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-}
-
 .main-list {
   margin: 0 auto;
-  width: var(--list-item-size);
+  width: var(--list-size);
 }
 
 .main-list li {
   background-color: var(--main-background-color);
-  outline: solid 2px var(--accent-color);
-  font-size: 18px;
+  border: solid 2px var(--accent-color);
+  font-size: var(--card-font-size);
   margin-bottom: 50px;
 }
 
 .main-list h3 {  
   font-variation-settings: 'wght' var(--main-font-header-weight);
-  line-height: 21.78px;
-  padding: 3px 10px;
+  line-height: 1.2em;
+  padding: 5px 10px;
+  font-size: var(--card-header-font-size);  
 }
 
 .main-list .card-picture {
@@ -110,19 +121,10 @@ h2 {
   justify-content: flex-end;
 }
 
-button {
-  padding: 0;
-  background: none;
-  border: none;
-}
-
-button:focus-visible {
-  outline: none;
-}
-
 .card__icon-button {
-  margin-right: 8px;
+  margin-right: 5px;
   border: solid 2px transparent;
+  line-height: 0px;
 }
 
 .card__icon-button:focus-visible {
@@ -226,8 +228,8 @@ button:focus-visible {
 }
 
 .save button svg {
-  width: 21px;
-  height: 21px;
+  width: 28px;
+  height: 28px;
   mix-blend-mode: difference;
   stroke: var(--button-text-color);
 }
