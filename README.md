@@ -1,0 +1,1 @@
+https://talinsk.github.io/zakrivayuschiy-teg-f/
