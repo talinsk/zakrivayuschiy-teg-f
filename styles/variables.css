@@ -16,4 +16,8 @@
   --label-stroke-color: #FFF;
   --button-hover-background: #000;
   --button-text-color: #FFF;
+
+  --heart-contour-color: #000;
+  --heart-active-color: #FF0000;
+  --heart-sparks-color: #FF0000;
 }
