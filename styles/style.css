@@ -43,6 +43,7 @@ button:focus-visible {
   min-block-size: 100dvb;
   font-family: var(--main-font-family);
   font-variation-settings: 'wght' var(--main-font-text-weight);
+  margin-bottom: 100px;
 }
 
 .header {
