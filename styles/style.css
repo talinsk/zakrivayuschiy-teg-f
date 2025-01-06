@@ -35,6 +35,7 @@ button:focus-visible {
 }
 
 .page {
+  background-color: var(--main-background-color);
   background-image: var(--background-image);
   background-size: cover;
   background-attachment: fixed;
@@ -100,9 +101,10 @@ button:focus-visible {
   text-shadow: 1px 0 var(--label-stroke-color), 0 1px var(--label-stroke-color), 1px 0 var(--label-stroke-color), 0 -1px var(--label-stroke-color);
 }
 
-@supports(-webkit-text-stroke: 1px var(--label-stroke-color)) {
+@supports((text-stroke: 1px var(--label-stroke-color)) or (-webkit-text-stroke: 1px var(--label-stroke-color))) {
   .main-list .card-picture .image-label {
     -webkit-text-stroke: 1px var(--label-stroke-color);
+    text-stroke: 1px var(--label-stroke-color);
     text-shadow: none;
   }
 } 
