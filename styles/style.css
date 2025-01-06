@@ -71,11 +71,11 @@ button:focus-visible {
   margin-bottom: 50px;
 }
 
-.main-list h3 {  
+.main-list h3 {
   font-variation-settings: 'wght' var(--main-font-header-weight);
   line-height: 1.2em;
   padding: 5px 10px;
-  font-size: var(--card-header-font-size);  
+  font-size: var(--card-header-font-size);
 }
 
 .main-list .card-picture {
@@ -172,7 +172,7 @@ button:focus-visible {
   transition: transform 0.5s ease-in-out;
 }
 
-.common-button:hover::before {  
+.common-button:hover::before {
   transform: scaleX(1);
 }
 

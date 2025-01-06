@@ -1,12 +1,12 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --background-image: repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px), repeating-linear-gradient(0, #d3d3d3 0 2px, transparent 2px 4px), linear-gradient(#e7e7e7 0.01%, #1a1a1a);
-  --main-font-family: 'Inter-Variable', sans-serif;  
+  --main-font-family: 'Inter-Variable', sans-serif;
   --accent-font-family: 'PressStart2P-Regular', sans-serif;
   --main-font-text-weight: 400;
   --main-font-header-weight: 700;
   --main-background-color: #FFF;
-  --accent-color: #000;  
+  --accent-color: #000;
   --normal-font-size: 14px;
   --card-font-size: 18px;
   --card-header-font-size: 18px;
