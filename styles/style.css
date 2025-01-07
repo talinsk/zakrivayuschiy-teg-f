@@ -10,26 +10,6 @@
 
 */
 
-h1, h2 {
-  font-weight: var(--main-font-text-weight);
-  text-align: center;
-}
-
-h1 {
-  font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
-  margin-bottom: 20px;
-}
-
-h2 {
-  font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
-}
-
-button {
-  padding: 0;
-  background: none;
-  border: none;
-}
-
 button:focus-visible {
   outline: none;
 }
@@ -256,7 +236,6 @@ dialog[open] {
 }
 
 dialog[open] button {
-  outline: solid 2px var(--accent-color);
   grid-column: span 2;
 }
 
@@ -334,18 +313,6 @@ dialog .floppy-container {
   animation-delay: 0.3s;
   animation-timing-function: ease-in;
 }
-
-@keyframes heart-scale {
-  0% {
-    transform: scale(1.25);
-  }
-}
-
-@keyframes heart-sparks {
-  100% {
-    opacity: 1;
-  }
-} 
 
 @media (width <= 375px) {
   .header {
