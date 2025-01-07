@@ -40,38 +40,38 @@ button:focus-visible {
   margin: 100px auto;
 }
 
-.main-list {
+.cards-section {
   margin: 0 auto;
-  width: var(--list-size);
+  width: var(--cards-block-size);
 }
 
-.main-list li {
+.cards-section article {
   background-color: var(--main-background-color);
   border: solid 2px var(--accent-color);
   font-size: var(--card-font-size);
   margin-bottom: 50px;
 }
 
-.main-list h3 {
+.cards-section h3 {
   font-variation-settings: 'wght' var(--main-font-header-weight);
   line-height: 1.2em;
   padding: 5px 10px;
   font-size: var(--card-header-font-size);
 }
 
-.main-list .card-picture {
+.cards-section .card-picture {
   width: 100%;
   aspect-ratio: 1 / 1;
   position: relative;
 }
 
-.main-list .card-picture img {
+.cards-section .card-picture img {
   width: 100%;
   max-height: 100%;
   object-fit: cover;
 }
 
-.main-list .image-label {
+.cards-section .image-label {
   position: absolute;
   top: 25px;
   right: 25px;
@@ -83,7 +83,7 @@ button:focus-visible {
 }
 
 @supports((text-stroke: 1px var(--label-stroke-color)) or (-webkit-text-stroke: 1px var(--label-stroke-color))) {
-  .main-list .card-picture .image-label {
+  .cards-section .card-picture .image-label {
     -webkit-text-stroke: 1px var(--label-stroke-color);
     text-stroke: 1px var(--label-stroke-color);
     text-shadow: none;
@@ -323,7 +323,7 @@ dialog .floppy-container {
     font-size: clamp(2.5rem, 2.125rem + 4vw, 3.0625rem);
   }
 
-  .main-list {
+  .cards-section {
     width: 100%;
   }
 
