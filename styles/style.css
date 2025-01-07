@@ -237,6 +237,8 @@ dialog[open] {
   font-size: var(--normal-font-size);
   text-transform: uppercase;
   line-height: 1.5;
+  border: none;
+  outline: solid 2px var(--accent-color);
 }
 
 dialog[open] button {
@@ -346,5 +348,6 @@ dialog .floppy-container {
 
   dialog[open] {
     padding: 30px 42px;
+    width: auto;
   }
 }
