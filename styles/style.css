@@ -343,4 +343,8 @@ dialog .floppy-container {
     width: 28px;
     height: 28px;
   }
+
+  dialog[open] {
+    padding: 30px 42px;
+  }
 }
