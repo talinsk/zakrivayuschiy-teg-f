@@ -49,20 +49,22 @@ button:focus-visible {
   background-color: var(--main-background-color);
   border: solid 2px var(--accent-color);
   font-size: var(--card-font-size);
-  margin-bottom: 50px;
+  margin-bottom: 49px;
 }
 
 .cards-section h3 {
   font-variation-settings: 'wght' var(--main-font-header-weight);
   line-height: 1.2em;
-  padding: 5px 10px;
+  padding: 5px 10px 4px;
   font-size: var(--card-header-font-size);
+  border-bottom: solid 2px var(--accent-color);
 }
 
 .cards-section .card-picture {
   width: 100%;
   aspect-ratio: 1 / 1;
   position: relative;
+  overflow: hidden;
 }
 
 .cards-section .card-picture img {
@@ -91,12 +93,14 @@ button:focus-visible {
 } 
 
 .card-description {
-  padding: 25px;
+  padding: 25px 25px 24px;
+  border-top: solid 2px var(--accent-color);
 }
 
 .card-description p {
-  padding-bottom: 25px;
+  padding-bottom: 26px;
   text-shadow: 2px 2px 3px rgb(0 0 0 / 0.5), 0px 0px 1px rgb(0 0 0 / 0.1);
+  line-height: 1.1667;
 }
 
 .buttons-container {
@@ -105,7 +109,7 @@ button:focus-visible {
 }
 
 .card__icon-button {
-  margin-right: 5px;
+  margin-right: 4px;
   border: solid 2px transparent;
   line-height: 0px;
 }
@@ -325,6 +329,10 @@ dialog .floppy-container {
 
   .cards-section {
     width: 100%;
+  }
+
+  .cards-section .image-label {
+    right: 11px;
   }
 
   .save button {
