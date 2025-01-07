@@ -168,35 +168,35 @@ button:focus-visible {
   height: 100%;
 }
 
-.img1 {
+.filter-brightness {
   filter: brightness(.9);
 }
 
-.img2 {
+.filter-contrast {
   filter: contrast(.8);
 }
 
-.img3 {
+.filter-blur {
   filter: blur(.03rem);
 }
 
-.img4 {
+.filter-grayscale {
   filter: grayscale(.3);
 }
 
-.img5 {
+.filter-huerotate {
   filter: hue-rotate(-90deg);
 }
 
-.img6 {
+.filter-saturate {
   filter: saturate(200%);
 }
 
-.img7 {
+.filter-sepia {
   filter: sepia(20%);
 }
 
-.img8 {
+.filter-invert-sepia-bright {
   filter: invert(0.2) sepia(10%) brightness(1.1);
 }
 
