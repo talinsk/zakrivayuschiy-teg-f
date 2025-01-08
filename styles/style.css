@@ -65,14 +65,14 @@ button:focus-visible {
   border-bottom: solid 2px var(--accent-color);
 }
 
-.cards-section .card-picture {
+.cards-section .card-image-container {
   width: 100%;
   aspect-ratio: 1 / 1;
   position: relative;
   overflow: hidden;
 }
 
-.cards-section .card-picture img {
+.cards-section .card-image {
   width: 100%;
   max-height: 100%;
   object-fit: cover;
@@ -90,7 +90,7 @@ button:focus-visible {
 }
 
 @supports((text-stroke: 1px var(--label-stroke-color)) or (-webkit-text-stroke: 1px var(--label-stroke-color))) {
-  .cards-section .card-picture .image-label {
+  .cards-section .image-label {
     -webkit-text-stroke: 1px var(--label-stroke-color);
     text-stroke: 1px var(--label-stroke-color);
     text-shadow: none;
