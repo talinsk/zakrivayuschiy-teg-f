@@ -57,7 +57,7 @@ button:focus-visible {
   margin-bottom: 49px;
 }
 
-.cards-section h3 {
+.cards-section h2 {
   font-variation-settings: 'wght' var(--main-font-header-weight);
   line-height: 1.21em;
   padding: 5px 10px 4px;
